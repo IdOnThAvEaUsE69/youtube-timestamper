@@ -9,7 +9,7 @@
 7. Enjoy the commentary.
 
 ## Some important tips:
-- Try to get your own YouTube API key from Google Cloud Console for free. _It's just a YouTube tutorial away. (I did provide a default key, for you to test use._
+- Try to get your own YouTube API key from Google Cloud Console for free. _It's just a YouTube tutorial away. (I did provide a default key, for you to test use.)_
 - You can Control + Click to highlight the comment in a new tab.
 - You can connect your Google Account, to be able to reply to timestamped comments within the extension itself.
 
