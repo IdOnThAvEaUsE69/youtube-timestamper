@@ -1,10 +1,10 @@
 # A peak chrome extension to enjoy YouTube 10x better, thanks to being able to read timestamped comments which pop out as the video plays.
 
-1. Just download the `youtube-timestamper-IdOnThAvEaUsE.zip` file in `releases`.
+1. Just download the `youtube-timestamper-IdOnThAvEaUsE.zip` file in `releases`
 2. Extract here.
-3. Go to `Manage Chrome Extensions`.
-4. Enable `Developer Mode`.
-5. Click `Load unpacked`.
+3. Go to `Manage Chrome Extensions`
+4. Enable `Developer Mode`
+5. Click `Load unpacked`
 6. Select the `youtube-timestamper-IdOnThAvEaUsE` folder.
 7. Enjoy the commentary.
 
