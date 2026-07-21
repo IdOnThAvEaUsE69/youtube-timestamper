@@ -11,7 +11,7 @@
 ## Some important tips:
 - Try to get your own YouTube API key from Google Cloud Console for free. _It's just a YouTube tutorial away. (I did provide a default key, for you to test use.)_
 - You can Control + Click to highlight the comment in a new tab.
-- You can connect your Google Account, to be able to reply to timestamped comments within the extension itself.
+- You can connect your Google Account, to be able to reply to timestamped comments within the extension itself. _However, since my extension is verified by Google, I'll need to input your email into the Google Cloud to access it. I'll try to get it verified, though._
 
 Happy binging. 🥂
 
