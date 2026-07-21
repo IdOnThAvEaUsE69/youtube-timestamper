@@ -15,6 +15,9 @@
 
 Happy binging. 🥂
 
+## Firefox Port
+Since Mozilla and Firefox are generous and don't beg for money to put extensions on their webstore (unlike some other webstore _cough cough_), I uploaded it to their webstore, and you can access it here: https://addons.mozilla.org/en-US/firefox/addon/youtube-timestamper/
+
 ### Sample Images:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/58340d6e-747b-408d-a528-d09d92a7e848" />
 <img width="1021" height="773" alt="image" src="https://github.com/user-attachments/assets/94f3a812-c48a-4db0-af0c-d51f98a32cba" />
