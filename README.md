@@ -1,4 +1,4 @@
-# A peak chrome extension to enjoy YouTube 10x better, thanks to being able to read timestamped comments which pop out as the video plays.
+# A peak Chrome and Firefox extension to enjoy YouTube 10x better, thanks to being able to read timestamped comments which pop out as the video plays.
 
 1. Just download the `youtube-timestamper-IdOnThAvEaUsE.zip` file in `releases`
 2. Extract here.
