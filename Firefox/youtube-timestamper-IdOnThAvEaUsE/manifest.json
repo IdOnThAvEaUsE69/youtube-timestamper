@@ -1,0 +1,58 @@
+{
+  "name": "YouTube Timestamper",
+  "version": "2.1.0",
+  "description": "See timestamped comments as you watch.",
+  "author": "IdOnThAvEaUsE",
+  "icons": {
+     "48": "assets/ext-icon.png",
+     "128": "assets/ext-icon.png"
+   },
+  "permissions": [
+      "tabs",
+      "activeTab",
+      "storage"
+  ],
+  "host_permissions": [
+      "https://*.youtube.com/*",
+      "https://youtu.be/*",
+      "https://yt-timestamper-refresh-2.idonthaveause.workers.dev/*"
+  ],
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+      "gecko": {
+          "id": "yt-timestamper@idonthaveause",
+          "strict_min_version": "109.0"
+      }
+  },
+  "content_scripts": [
+      {
+          "matches": [
+              "https://*.youtube.com/*",
+              "https://youtu.be/*"
+          ],
+          "js": ["youtubeApi.js", "contentScript.js"],
+          "css": ["styles.css"],
+          "run_at": "document_end"
+      }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/cancel.png"
+      ],
+      "matches": ["https://*.youtube.com/*"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/ext-icon.png",
+      "24": "assets/ext-icon.png",
+      "32": "assets/ext-icon.png"
+    },
+    "default_title": "YouTube Timestamper",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}

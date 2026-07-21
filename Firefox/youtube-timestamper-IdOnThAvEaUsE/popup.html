@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Timestamper</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+    <h1>YouTube Timestamper</h1>
+    
+    <div class="setting">
+        <label data-tooltip="Show timestamped comments in the video"><span>Show Timestamped Comments:</span></label>
+        <label class="toggle-switch">
+            <input type="checkbox" id="toggleComments" checked>
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <div class="setting">
+        <label data-tooltip="Range of time comments will be displayed on screen (1-10 seconds)"><span>Comment Display Time (sec):</span></label>
+        <input type="number" id="commentDuration" min="1" max="10" value="4" title="Range: 1-10">
+    </div>
+    
+    <div class="setting">
+        <label data-tooltip="Maximum number of comments to cache. Set to 0 for unlimited comments"><span>Max Comment Cache Limit:<br>(0 = unlimited)</span></label>
+        <input type="number" id="maxCommentCache" min="0" value="5000" title="Set to 0 for unlimited comments">
+    </div>
+    
+    <div class="setting">
+        <label data-tooltip="YouTube Data API key used to fetch public comments. Leave blank to use the built-in default key. However, do be aware that it may be throttled if used by a lot of people. It's rather easy to get your own API key from Google Cloud Console."><span>API Key (Recommended):</span></label>
+        <input type="text" id="apiKeyInput" class="api-key-input" placeholder="Uses default key if blank">
+    </div>
+
+    <div class="setting" id="accountSetting">
+        <label data-tooltip="Connect your Google account to reply, edit, and delete your replies to comments. Set the Refresh Token from below."><span>Google Account (Optional):</span></label>
+        <button class="account-btn" id="accountButton">Connect</button>
+    </div>
+    
+    <div class="setting">
+        <label data-tooltip="Refresh Token for automatic OAuth key generation. Get this by connecting your Google Account from above."><span>Refresh Token:</span></label>
+        <input type="text" id="oauthTokenInput" placeholder="Enter refresh token from OAuth server">
+    </div>
+    
+    <button class="save-btn" id="saveSettings">Save Settings</button>
+    <div id="status" class="status"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
