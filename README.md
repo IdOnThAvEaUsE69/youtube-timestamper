@@ -14,3 +14,7 @@
 - You can connect your Google Account, to be able to reply to timestamped comments within the extension itself.
 
 Happy binging. 🥂
+
+### Sample Images:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/58340d6e-747b-408d-a528-d09d92a7e848" />
+<img width="1021" height="773" alt="image" src="https://github.com/user-attachments/assets/94f3a812-c48a-4db0-af0c-d51f98a32cba" />
